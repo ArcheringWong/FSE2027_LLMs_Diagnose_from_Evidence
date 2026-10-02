@@ -1,0 +1,5 @@
+metric,Full,KO,Placebo,KO_minus_Full,Placebo_minus_Full,human_audit_reliability,status,notes
+Fault semantic yes rate,0.09285714285714286,0,0.17142857142857143,-0.09285714285714286,0.07857142857142857,raw agreement = 87.3%,SECONDARY_SEMANTIC,Blinded semantic Judge; secondary semantic evidence.
+Unsupported claim rate,0.15714285714285714,0.6214285714285714,0.15714285714285714,0.4642857142857143,0,raw agreement = 65.1%,SECONDARY_SEMANTIC,Secondary/descriptive; disclose limited human agreement; do not headline.
+Evidence grounding mean,2.242857142857143,1.542857142857143,2.2857142857142856,-0.7,0.04285714285714286,"linear weighted κ = 0.386; 95% CI [0.192, 0.561]",DESCRIPTIVE,Supporting descriptive only.
+Causal explanation quality mean,2.3142857142857145,1.55,2.3214285714285716,-0.7642857142857142,0.007142857142857143,"linear weighted κ = 0.141; 95% CI [0.059, 0.233]",DESCRIPTIVE,Descriptive only; low Judge–Human reliability.

@@ -1,0 +1,6 @@
+metric,condition,estimate,ci_low,ci_high,status
+canonical_flip_rate,KO,0.7982456140350878,,,PRIMARY
+canonical_flip_rate,PLACEBO,0.08771929824561403,,,PRIMARY
+localization_accuracy,FULL,0.5964912280701754,,,KEY_SECONDARY
+localization_accuracy,KO,0.017543859649122806,,,KEY_SECONDARY
+localization_accuracy,PLACEBO,0.6140350877192983,,,KEY_SECONDARY

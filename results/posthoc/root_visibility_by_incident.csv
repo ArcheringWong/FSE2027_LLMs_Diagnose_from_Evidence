@@ -1,0 +1,58 @@
+﻿task_id,gold_root_name,gold_root_type,root_visible_any,root_visible_in_observation_text,root_visible_as_card_entity,root_visible_in_alert,root_mention_count_total,root_mention_count_topology,root_mention_count_trace,root_mention_count_metric,root_mention_count_log_event,root_mention_count_alert,root_mention_count_other,root_entity_card_count,visibility_evidence_ids,visibility_excerpt_short
+t001,payment,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E06""]",E06 [topology] checkout --calls--> payment
+t005,cn-hongkong.10.0.1.107,k8s.node,true,true,true,false,1,1,0,0,0,0,0,1,"[""E05""]",E05 [topology] cn-hongkong.10.0.1.107 --contains--> frontend-6df7d557f5-sgfcb
+t006,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E07""]",E07 [topology] cart --calls--> inventory
+t007,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E08""]",E08 [topology] cart --calls--> inventory
+t010,cart,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E06""]",E06 [topology] checkout --calls--> cart
+t011,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E07""]",E07 [topology] cart --calls--> inventory
+t013,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E09""]",E09 [topology] cart --calls--> inventory
+t014,payment,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E06""]",E06 [topology] checkout --calls--> payment
+t019,cn-hongkong.10.0.1.49,k8s.node,true,true,true,false,1,1,0,0,0,0,0,1,"[""E09""]",E09 [topology] cn-hongkong.10.0.1.49 --contains--> frontend-6df7d557f5-nz7g4
+t020,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E13""]",E13 [topology] frontend --calls--> inventory
+t021,inventory,apm.service,true,true,true,false,1,1,0,0,0,0,0,1,"[""E03"",""E06""]",E03 [metric] entity=inventory
+t022,cn-hongkong.10.0.1.55,k8s.node,true,true,true,false,1,1,0,0,0,0,0,1,"[""E09""]",E09 [topology] cn-hongkong.10.0.1.55 --contains--> cart-67f957cc88-v85nj
+t034,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E10""]",E10 [topology] cart --calls--> inventory
+t036,cn-hongkong.10.0.1.56,k8s.node,true,true,true,false,1,1,0,0,0,0,0,1,"[""E07""]",E07 [topology] cn-hongkong.10.0.1.56 --contains--> cart-67f957cc88-njsn7
+t038,cn-hongkong.10.0.1.56,k8s.node,true,true,true,false,1,1,0,0,0,0,0,1,"[""E08""]",E08 [topology] cn-hongkong.10.0.1.56 --contains--> cart-67f957cc88-njsn7
+t039,shipping,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E04""]",E04 [topology] checkout --calls--> shipping
+t044,inventory,apm.service,true,true,true,false,1,1,0,0,0,0,0,3,"[""E03"",""E04"",""E05"",""E11""]",E03 [metric] entity=inventory
+t046,payment,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E06""]",E06 [topology] checkout --calls--> payment
+t047,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E08""]",E08 [topology] cart --calls--> inventory
+t048,cn-hongkong.10.0.1.56,k8s.node,true,true,true,false,1,1,0,0,0,0,0,1,"[""E06""]",E06 [topology] cn-hongkong.10.0.1.56 --contains--> recommendation-76cf448bdf-z6sg4
+t049,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E06""]",E06 [topology] cart --calls--> inventory
+t050,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E09""]",E09 [topology] cart --calls--> inventory
+t051,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E06""]",E06 [topology] cart --calls--> inventory
+t052,payment,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E08""]",E08 [topology] checkout --calls--> payment
+t054,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E14""]",E14 [topology] cart --calls--> inventory
+t057,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E08""]",E08 [topology] cart --calls--> inventory
+t060,cn-hongkong.10.0.1.107,k8s.node,true,true,true,false,1,1,0,0,0,0,0,1,"[""E08""]",E08 [topology] cn-hongkong.10.0.1.107 --contains--> frontend-6df7d557f5-sgfcb
+t061,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E11""]",E11 [topology] cart --calls--> inventory
+t062,fraud-detection,apm.service,true,true,true,false,2,2,0,0,0,0,0,3,"[""E02"",""E05"",""E06""]",E02 [metric] entity=fraud-detection::orders process
+t064,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E10""]",E10 [topology] cart --calls--> inventory
+t065,shipping,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E09""]",E09 [topology] checkout --calls--> shipping
+t067,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E09""]",E09 [topology] cart --calls--> inventory
+t068,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E09""]",E09 [topology] cart --calls--> inventory
+t069,cn-hongkong.10.0.1.107,k8s.node,true,true,true,false,1,1,0,0,0,0,0,1,"[""E09""]",E09 [topology] cn-hongkong.10.0.1.107 --contains--> checkout-6ffdd55c58-w22th
+t070,cart,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E11""]",E11 [topology] frontend --calls--> cart
+t071,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E09""]",E09 [topology] cart --calls--> inventory
+t073,cn-hongkong.10.0.1.65,k8s.node,true,true,true,false,1,1,0,0,0,0,0,1,"[""E06""]",E06 [topology] cn-hongkong.10.0.1.65 --contains--> cart-6f5df8568c-j4j62
+t076,quote,apm.service,true,true,true,false,1,1,0,0,0,0,0,1,"[""E04"",""E07""]",E07 [topology] shipping --calls--> quote
+t077,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E08""]",E08 [topology] cart --calls--> inventory
+t078,quote,apm.service,true,true,true,false,1,1,0,0,0,0,0,1,"[""E02"",""E07""]",E07 [topology] shipping --calls--> quote
+t079,recommendation,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E08""]",E08 [topology] frontend --calls--> recommendation
+t080,cn-hongkong.10.0.1.107,k8s.node,true,true,true,false,1,1,0,0,0,0,0,1,"[""E07""]",E07 [topology] cn-hongkong.10.0.1.107 --contains--> frontend-6df7d557f5-sgfcb
+t081,quote,apm.service,true,true,true,false,1,1,0,0,0,0,0,1,"[""E04"",""E10""]",E04 [metric] entity=quote
+t082,cn-hongkong.10.0.1.107,k8s.node,true,true,true,false,1,1,0,0,0,0,0,1,"[""E09""]",E09 [topology] cn-hongkong.10.0.1.107 --contains--> checkout-6ffdd55c58-w22th
+t083,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E08""]",E08 [topology] cart --calls--> inventory
+t084,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E06""]",E06 [topology] cart --calls--> inventory
+t085,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E08""]",E08 [topology] cart --calls--> inventory
+t086,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E11""]",E11 [topology] cart --calls--> inventory
+t088,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E08""]",E08 [topology] cart --calls--> inventory
+t090,cn-hongkong.10.0.1.107,k8s.node,true,true,true,false,1,1,0,0,0,0,0,1,"[""E06""]",E06 [topology] cn-hongkong.10.0.1.107 --contains--> frontend-6df7d557f5-sgfcb
+t092,cn-hongkong.10.0.1.49,k8s.node,true,true,true,false,1,1,0,0,0,0,0,1,"[""E07""]",E07 [topology] cn-hongkong.10.0.1.49 --contains--> frontend-6df7d557f5-nz7g4
+t093,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E10""]",E10 [topology] cart --calls--> inventory
+t097,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E07""]",E07 [topology] frontend --calls--> inventory
+t099,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E07""]",E07 [topology] cart --calls--> inventory
+t100,quote,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E11""]",E11 [topology] shipping --calls--> quote
+t102,inventory,apm.service,true,true,false,false,1,1,0,0,0,0,0,0,"[""E09""]",E09 [topology] cart --calls--> inventory
+t103,cart,apm.service,true,true,true,false,1,1,0,0,0,0,0,1,"[""E09""]",E09 [topology] cart --calls--> inventory

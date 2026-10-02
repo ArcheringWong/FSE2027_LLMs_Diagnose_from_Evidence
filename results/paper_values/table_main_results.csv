@@ -1,0 +1,4 @@
+metric,stratum,Full,KO,Placebo,contrast,contrast_estimate,ci_low,ci_high,p_raw,p_adjusted,status,notes
+Canonical flip rate,LOCALIZATION_DEMANDING,,0.7982456140350878,0.08771929824561403,SER: KO flip − Placebo flip,0.7105263157894737,0.5964912280701754,0.8157894736842105,0.00000999990000099999,,PRIMARY,Full is the reference; p is the frozen one-sided permutation p-value.
+Localization accuracy,LOCALIZATION_DEMANDING,0.5964912280701754,0.017543859649122806,0.6140350877192983,Placebo − KO,0.5964912280701754,0.4824561403508772,0.7105263157894737,0.00000999990000099999,0.00002999970000299997,KEY_SECONDARY,Policy A strict exact entity; two-sided frozen secondary test with Holm adjustment.
+Fault deterministic accuracy,SAME_SERVICE_FAULT,0,0,0,Placebo − KO,0,0,0,1,1,SECONDARY,Exact frozen taxonomy matching; semantic mechanism is reported separately.

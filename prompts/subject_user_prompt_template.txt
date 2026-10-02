@@ -1,0 +1,12 @@
+Incident alert:
+Title: {alert_title}
+Entity: {alert_entity}
+Window: {window_start} to {window_end}
+
+Evidence:
+{evidence_lines}
+
+Output schema:
+{prediction_schema}
+
+Return JSON only.

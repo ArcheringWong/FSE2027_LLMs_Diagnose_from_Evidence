@@ -1,0 +1,3 @@
+﻿condition,full_correct_N,lost_correctness,retained_correctness,loss_rate_percent
+Targeted-KO,68,66,2,97.0588
+Placebo,68,1,67,1.4706

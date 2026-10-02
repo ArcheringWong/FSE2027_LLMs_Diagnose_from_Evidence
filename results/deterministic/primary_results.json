@@ -1,0 +1,44 @@
+{
+  "K_rate": 0.7982456140350878,
+  "P_rate": 0.08771929824561403,
+  "analyzed_n": 57,
+  "confidence_interval": {
+    "confidence_level": 0.95,
+    "lower": 0.5964912280701754,
+    "method": "two-sided percentile incident-cluster bootstrap",
+    "resamples": 10000,
+    "seed": 20270828,
+    "upper": 0.8157894736842105
+  },
+  "effect_direction": "POSITIVE",
+  "eligible_n": 57,
+  "estimate": 0.7105263157894737,
+  "full_accuracy": 0.5964912280701754,
+  "hypothesis": {
+    "alpha": 0.05,
+    "alternative": "mean SER > 0",
+    "null": "mean SER <= 0"
+  },
+  "hypothesis_result": "SUPPORTED",
+  "ko_accuracy": 0.017543859649122806,
+  "outcome": "localization incident-level mean SER",
+  "permutation": {
+    "extreme_permutations": 0,
+    "observed_statistic": 0.7105263157894737,
+    "p_value": 9.99990000099999e-06,
+    "permutations": 100000,
+    "seed": 20270827,
+    "sidedness": "one-sided-greater"
+  },
+  "placebo_accuracy": 0.6140350877192983,
+  "statistical_plan": {
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 20270828,
+    "confidence_level": 0.95,
+    "independent_unit": "INCIDENT",
+    "permutation_seed": 20270827,
+    "permutations": 100000
+  },
+  "technical_attrition": 0,
+  "test_statistic": 0.7105263157894737
+}

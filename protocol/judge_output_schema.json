@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "causal_explanation_quality": {
+      "maximum": 3,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "evidence_grounding": {
+      "maximum": 3,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "fault_semantic_correct": {
+      "enum": [
+        "yes",
+        "no",
+        "cannot_determine"
+      ]
+    },
+    "reason": {
+      "maxLength": 500,
+      "minLength": 1,
+      "type": "string"
+    },
+    "unsupported_claim": {
+      "enum": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  "required": [
+    "fault_semantic_correct",
+    "causal_explanation_quality",
+    "evidence_grounding",
+    "unsupported_claim",
+    "reason"
+  ],
+  "title": "Blinded semantic Judge output v1",
+  "type": "object"
+}

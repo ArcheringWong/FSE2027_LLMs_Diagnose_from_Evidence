@@ -1,0 +1,6 @@
+﻿transition,Targeted-KO_count,Targeted-KO_percent_of_114,Placebo_count,Placebo_percent_of_114
+correct_to_incorrect,66,57.8947,1,0.8772
+correct_to_same_correct,2,1.7544,67,58.7719
+incorrect_to_correct,0,0,3,2.6316
+incorrect_to_different_incorrect,25,21.9298,6,5.2632
+incorrect_to_same_incorrect,21,18.4211,37,32.4561

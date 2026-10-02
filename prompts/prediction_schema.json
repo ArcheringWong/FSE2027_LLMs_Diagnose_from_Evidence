@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RCA Subject Prediction",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "root_entity": {
+      "type": "string"
+    },
+    "fault_type": {
+      "type": "string"
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^E[0-9]+$"
+      },
+      "uniqueItems": true
+    },
+    "diagnosis_summary": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  },
+  "required": [
+    "root_entity",
+    "fault_type",
+    "evidence_ids",
+    "diagnosis_summary",
+    "confidence"
+  ]
+}

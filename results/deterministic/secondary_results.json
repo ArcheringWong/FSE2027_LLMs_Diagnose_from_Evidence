@@ -1,0 +1,128 @@
+{
+  "fault_accuracy": {
+    "FULL": 0.0,
+    "KO": 0.0,
+    "PLACEBO": 0.0
+  },
+  "holm_ordering_by_raw_p_then_name": [
+    "localization_AccuracyGap",
+    "fault_SER",
+    "fault_AccuracyGap"
+  ],
+  "localization_accuracy": {
+    "FULL": 0.5964912280701754,
+    "KO": 0.017543859649122806,
+    "PLACEBO": 0.6140350877192983
+  },
+  "multiplicity_correction": "HOLM",
+  "secondary_family": [
+    "fault_SER",
+    "localization_AccuracyGap",
+    "fault_AccuracyGap"
+  ],
+  "tests": [
+    {
+      "adjusted_p": 0.8734912650873491,
+      "analyzed_n": 13,
+      "confidence_interval": {
+        "confidence_level": 0.95,
+        "lower": -0.11538461538461539,
+        "method": "two-sided percentile incident-cluster bootstrap",
+        "resamples": 10000,
+        "seed": 20270828,
+        "upper": 0.4230769230769231
+      },
+      "eligible_n": 13,
+      "estimate": 0.15384615384615385,
+      "holm_rank": 2,
+      "name": "fault_SER",
+      "outcome_field": "SER_i",
+      "permutation": {
+        "extreme_permutations": 43674,
+        "observed_statistic": 0.15384615384615385,
+        "p_value": 0.43674563254367454,
+        "permutations": 100000,
+        "seed": 20270827,
+        "sidedness": "two-sided"
+      },
+      "raw_p": 0.43674563254367454,
+      "study_stratum": "SAME_SERVICE_FAULT",
+      "technical_attrition": 0,
+      "test_statistic": 0.15384615384615385
+    },
+    {
+      "adjusted_p": 2.999970000299997e-05,
+      "analyzed_n": 57,
+      "confidence_interval": {
+        "confidence_level": 0.95,
+        "lower": 0.4824561403508772,
+        "method": "two-sided percentile incident-cluster bootstrap",
+        "resamples": 10000,
+        "seed": 20270828,
+        "upper": 0.7105263157894737
+      },
+      "eligible_n": 57,
+      "estimate": 0.5964912280701754,
+      "holm_rank": 1,
+      "name": "localization_AccuracyGap",
+      "outcome_field": "AccuracyGap_i",
+      "permutation": {
+        "extreme_permutations": 0,
+        "observed_statistic": 0.5964912280701754,
+        "p_value": 9.99990000099999e-06,
+        "permutations": 100000,
+        "seed": 20270827,
+        "sidedness": "two-sided"
+      },
+      "raw_p": 9.99990000099999e-06,
+      "study_stratum": "LOCALIZATION_DEMANDING",
+      "technical_attrition": 0,
+      "test_statistic": 0.5964912280701754
+    },
+    {
+      "adjusted_p": 1.0,
+      "analyzed_n": 13,
+      "confidence_interval": {
+        "confidence_level": 0.95,
+        "lower": 0.0,
+        "method": "two-sided percentile incident-cluster bootstrap",
+        "resamples": 10000,
+        "seed": 20270828,
+        "upper": 0.0
+      },
+      "eligible_n": 13,
+      "estimate": 0.0,
+      "holm_rank": 3,
+      "name": "fault_AccuracyGap",
+      "outcome_field": "AccuracyGap_i",
+      "permutation": {
+        "extreme_permutations": 100000,
+        "observed_statistic": 0.0,
+        "p_value": 1.0,
+        "permutations": 100000,
+        "seed": 20270827,
+        "sidedness": "two-sided"
+      },
+      "raw_p": 1.0,
+      "study_stratum": "SAME_SERVICE_FAULT",
+      "technical_attrition": 0,
+      "test_statistic": 0.0
+    }
+  ],
+  "transitions": {
+    "LOCALIZATION_DEMANDING": {
+      "full_correct_model_observations": 68,
+      "full_to_ko_incorrect": 66,
+      "full_to_ko_incorrect_rate": 0.9705882352941176,
+      "full_to_placebo_incorrect": 1,
+      "full_to_placebo_incorrect_rate": 0.014705882352941176
+    },
+    "SAME_SERVICE_FAULT": {
+      "full_correct_model_observations": 0,
+      "full_to_ko_incorrect": 0,
+      "full_to_ko_incorrect_rate": null,
+      "full_to_placebo_incorrect": 0,
+      "full_to_placebo_incorrect_rate": null
+    }
+  }
+}

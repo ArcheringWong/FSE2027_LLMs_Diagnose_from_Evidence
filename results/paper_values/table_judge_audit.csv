@@ -1,0 +1,5 @@
+field,type,N,agreement_metric,estimate,ci_low,ci_high,paper_interpretation
+fault_semantic_correct,categorical,63,raw agreement,0.873015873015873,,,Secondary semantic outcome; report blinded Judge source and 87.3% human-audit raw agreement.
+unsupported_claim,categorical,63,raw agreement,0.6507936507936508,,,Secondary/descriptive; disclose 65.1% human-audit raw agreement.
+evidence_grounding,ordinal,63,linear weighted kappa,0.38596491228070173,0.19191739033537963,0.5605304536710424,Supporting/descriptive only; moderate reliability.
+causal_explanation_quality,ordinal,63,linear weighted kappa,0.1405009163103238,0.05899808184266844,0.23271353269429063,Descriptive only; low reliability; never headline or claim significance.

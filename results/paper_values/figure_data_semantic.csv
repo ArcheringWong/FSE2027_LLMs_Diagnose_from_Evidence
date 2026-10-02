@@ -1,0 +1,5 @@
+metric,Full,KO,Placebo,interpretation_level,human_reliability
+fault_semantic_yes,0.09285714285714286,0,0.17142857142857143,secondary semantic,raw agreement = 87.3%
+unsupported_claim,0.15714285714285714,0.6214285714285714,0.15714285714285714,secondary/descriptive,raw agreement = 65.1%
+evidence_grounding,2.242857142857143,1.542857142857143,2.2857142857142856,supporting descriptive,"linear weighted κ = 0.386; 95% CI [0.192, 0.561]"
+causal_quality,2.3142857142857145,1.55,2.3214285714285716,descriptive only,"linear weighted κ = 0.141; 95% CI [0.059, 0.233]"

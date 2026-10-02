@@ -1,0 +1,38 @@
+{
+  "human_judge_audit": {
+    "annotator_role": "external human annotator",
+    "annotators": 1,
+    "fraction": 0.15,
+    "rows": 63,
+    "seed": 20270829,
+    "use": "agreement estimation only; labels did not overwrite Judge or deterministic scores"
+  },
+  "semantic_judge": {
+    "gateway": "OpenRouter",
+    "max_output_tokens": 256,
+    "model": "openai/gpt-4o-mini-2024-07-18",
+    "provider": "OpenAI",
+    "provider_fallbacks": false,
+    "research_role": "secondary semantic evaluation only",
+    "structured_output": "strict JSON schema",
+    "temperature": 0,
+    "thinking": "disabled",
+    "tools": false,
+    "top_p": 1,
+    "web": false
+  },
+  "subject_models": {
+    "json_mode": true,
+    "max_output_tokens": 500,
+    "models": [
+      "qwen3.7-plus-2026-05-26",
+      "deepseek-v4-flash"
+    ],
+    "runs_per_model_condition_incident": 1,
+    "temperature": 0,
+    "thinking": "disabled",
+    "tools": false,
+    "top_p": 1,
+    "web": false
+  }
+}
